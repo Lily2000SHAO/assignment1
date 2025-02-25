@@ -1,0 +1,372 @@
+/*
+Design by 
+http://www.yihaowangluo.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6, form {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+}
+
+h4, h5, h6 {
+}
+
+p, ul, ol, blockquote {
+    margin-top: 0;
+}
+
+a {
+    color: #268ED4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+}
+
+/* Header */
+
+#header {
+    height: 40px;
+    background: #5A5A5A url(images/img01.gif) repeat-x;
+    width: 100%; /* 设置宽度为 100% 以铺满屏幕 */
+}
+
+#header h1 {
+    margin: 0;
+    padding: 12px 0 0 20px; /* 调整内边距 */
+    font-size: 1em;
+}
+
+#header h2 {
+    margin: -18px 20px 0 0; /* 调整外边距 */
+    text-align: right;
+    font-size: 1em;
+}
+
+#header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Pages */
+
+#pages {
+    height: 110px;
+    padding-top: 10px;
+    background: url(images/img02.gif) repeat-x;
+    width: 100%; /* 设置宽度为 100% 以铺满屏幕 */
+}
+
+#pages h2 {
+    display: none;
+}
+
+#pages ul {
+    display: flex; /* 使用 flex 布局 */
+    justify-content: center; /* 水平居中 */
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#pages li {
+    margin: 0 5px; /* 调整元素间距 */
+}
+
+#pages a {
+    display: block;
+    width: 90px;
+    height: 75px;
+    padding: 35px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    
+    letter-spacing: -1px;
+    font-size: 1.6em;
+    font-weight: normal;
+    color: #333333;
+}
+
+#pages a:hover {
+    color: #000000;
+}
+
+#page1 {
+    background: #E5FAA1 url(images/img03.gif) no-repeat;
+}
+
+#page5 {
+    background: #97F0E6 url(images/img04.gif) no-repeat;
+}
+
+#page2 {
+    background: #F3B6CE url(images/img05.gif) no-repeat;
+}
+
+#page3 {
+    background: #FADDA1 url(images/img06.gif) no-repeat;
+}
+
+#page4 {
+    background: #C9CDFF url(images/img07.gif) no-repeat;
+}
+
+#page6 {
+    background: #97F0E6 url(images/img04.gif) no-repeat;
+}
+
+#page7 {
+    background: #F3B6CE url(images/img05.gif) no-repeat;
+}
+
+#page8 {
+    background: #FADDA1 url(images/img06.gif) no-repeat;
+}
+
+.title {
+    color: rgb(242, 85, 85);
+}
+/* Content */
+
+#content {
+    width: 90%; /* 使用百分比设置宽度 */
+    max-width: 1200px; /* 设置最大宽度，避免内容过宽 */
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+
+.duffy {
+    color: rgb(150, 88, 3);
+}
+
+.shelliemay {
+    color: rgb(255, 0, 162);
+}
+
+.cookieann {
+    color: rgb(235, 180, 1);
+}
+
+.stellalou {
+    color: rgb(170, 19, 240);
+}
+
+.gelatoni {
+    color: rgb(5, 184, 178);
+}
+
+.olumel {
+    color: rgb(8, 234, 20);
+}
+
+.linabelle {
+    color: rgb(238, 96, 208);
+}
+
+.shelliemay1 {
+    color: rgb(255, 0, 162);
+	font-size: 2.5em;
+}
+
+.cookieann1 {
+    color: rgb(235, 180, 1);
+	font-size: 2.5em;
+}
+
+.stellalou1 {
+    color: rgb(170, 19, 240);
+	font-size: 2.5em;
+}
+
+.gelatoni1 {
+    color: rgb(5, 184, 178);
+	font-size: 2.5em;
+}
+
+.olumel1 {
+    color: rgb(8, 234, 20);
+	font-size: 2.5em;
+}
+
+.linabelle1 {
+    color: rgb(238, 96, 208);
+	font-size: 2.5em;
+}
+
+.p1{
+	color:  rgb(242, 85, 85);
+	
+}
+
+.p2 {
+    font-size: 15px;
+	text-align: justify;
+}
+
+.p3{
+	text-align:center
+}
+
+.p4{
+	color: #b56707;
+	font-size: 2.5em;
+}
+
+.story11 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text-container {
+    order: 1;
+}
+
+.story11 img {
+    order: 2;
+    margin-left: 20px;
+}
+
+.story11 p {
+    line-height: 180%;
+    text-align: justify; /* 可选：让文字两端对齐 */
+}
+
+/* Latest Post Box */
+
+#latest-post {
+    width: 100%; /* 设置宽度为 100% */
+}
+
+#latest-post .title {
+    letter-spacing: -1px;
+    font-size: 2.2em;
+}
+
+#latest-post .posted {
+    margin-bottom: 2em;
+    font-size: .8em;
+    font-weight: normal;
+}
+
+#latest-post .image {
+    float: left;
+    margin: .3em 1em 0 0;
+}
+
+#latest-post p,
+#latest-post blockquote,
+#latest-post ul,
+#latest-post ol {
+    line-height: 155%;
+}
+
+/* Recent Posts Box */
+
+#recent-posts {
+    width: 40%; /* 使用百分比设置宽度 */
+}
+
+#recent-posts h3 {
+    width: 100%; /* 设置宽度为 100% */
+    height: 32px;
+    padding: 12px 0 0 10px;
+    background: #5A5A5A url(images/img13.gif);
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+#recent-posts ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#recent-posts li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #5A5A5A;
+}
+
+#recent-posts li:hover {
+    background: #EFEFEF;
+}
+
+/* Column One */
+
+#colOne {
+    padding-bottom: 20px;
+}
+
+/* Column Two */
+
+#colTwo {
+    padding: 20px;
+    background: url(images/img02.gif) repeat-x;
+}
+
+#colTwo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#colTwo li,
+#colTwo form {
+    padding: 10px;
+}
+
+#colTwo li {
+    width: 50%; /* 使用百分比设置宽度 */
+}
+
+#colTwo li ul {
+}
+
+#colTwo li li {
+    display: list-item;
+    float: none;
+    padding: 0 0 0 10px;
+}
+
+#colTwo h2 {
+    margin: 0 0 .5em 0;
+    padding: 0 0 0 10px;
+    
+    font-size: 1.8em;
+}
+
+
+
+/* Footer */
+
+#footer {
+    width: 100%; /* 设置宽度为 100% 以铺满屏幕 */
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    background: url(images/img02.gif) repeat-x;
+    box-sizing: border-box; /* 确保内边距包含在宽度内 */
+}
+
+#footer p {
+    text-align: center;
+    font-size: x-small;
+}
